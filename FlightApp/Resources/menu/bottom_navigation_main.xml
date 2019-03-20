@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/menu_pdf"
+    android:icon="@drawable/icons_pdf"
+    android:title="Pdf"
+    app:showAsAction="ifRoom"/>
+
+  <item
+    android:id="@+id/menu_chili"
+    android:icon="@drawable/icons_chili"
+    android:title="Chilli"
+    app:showAsAction="ifRoom"/>
+
+  <item
+    android:id="@+id/menu_western"
+    android:icon="@drawable/icons_western"
+    android:title="Western"
+    app:showAsAction="ifRoom"/>
+  
+</menu>
