@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+    android:id="@+id/menu_student"
+    android:icon="@drawable/icons_pdf"
+    android:title="Student"
+    app:showAsAction="ifRoom"/>
+
+  <item
+    android:id="@+id/menu_tests"
+    android:icon="@drawable/icons_chili"
+    android:title="Test"
+    app:showAsAction="ifRoom"/>
+
+  <item
+    android:id="@+id/menu_newStudent"
+    android:icon="@drawable/icons_western"
+    android:title="Info"
+    app:showAsAction="ifRoom"/>
+
+</menu>

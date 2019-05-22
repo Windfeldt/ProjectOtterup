@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Otterrup</string>
+    <string name="action_settings">Settings</string>
+  <string name="AddTest">"Add test view"</string>
+  <string name="Student">"Student view"</string>
+  <string name="AddStudent">"Add new student view"</string>
+</resources>

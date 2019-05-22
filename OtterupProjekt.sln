@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "SharedLibrary\SharedLibrary.csproj", "{B25A4564-D012-4533-845F-C34365C528F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectOtterup", "ProjectOtterup\ProjectOtterup.csproj", "{E52024BB-3C24-422B-88A7-6157EA00302B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B25A4564-D012-4533-845F-C34365C528F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B25A4564-D012-4533-845F-C34365C528F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B25A4564-D012-4533-845F-C34365C528F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B25A4564-D012-4533-845F-C34365C528F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52024BB-3C24-422B-88A7-6157EA00302B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A78712D-9FEA-455E-9F18-74DD90A64059}
+	EndGlobalSection
+EndGlobal
