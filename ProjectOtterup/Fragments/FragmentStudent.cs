@@ -68,7 +68,8 @@ namespace ProjectOtterup.Fragments
             //}
 
             Intent intent = new Intent(Context, typeof(SelectedStudentActivity));
-            intent.PutExtra("Id", e.Position);
+            
+            intent.PutExtra("Id", _listStudents[e.Position].StudentId);
             StartActivity(intent);
 
         }

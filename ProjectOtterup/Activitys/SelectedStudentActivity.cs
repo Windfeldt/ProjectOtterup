@@ -19,6 +19,14 @@ namespace ProjectOtterup.Activitys
         {
             base.OnCreate(savedInstanceState);
 
+            SetContentView(Resource.Layout.selectedStudent);
+
+            TextView textView = FindViewById<TextView>(Resource.Id.SelectedStudentName);
+
+            int intent = base.Intent.Extras.GetInt("Id");
+
+            textView.Text = intent.ToString();
+
             // Create your application here
         }
     }
