@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout 
+<LinearLayout
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/holo_purple">
 
-
-
-	<TextView
-	android:id="@+id/SelectedStudentName"
+<TextView
+	android:id="@+id/SelectedStudentId"
 	android:text="Hello World"
 	android:textAppearance="?android:attr/textAppearanceLarge"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent"/>
+	android:layout_height="70dp"
+	android:gravity="center"/>
+
+<TextView
+	android:id="@+id/SelectedStudentFirstname"
+	android:text="Hello World"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:layout_width="match_parent"
+	android:layout_height="70dp"
+	android:gravity="center"/>
+
+<TextView
+	android:id="@+id/SelectedStudentLastname"
+	android:text="Hello World"
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:layout_width="match_parent"
+	android:layout_height="70dp"
+	android:gravity="center"/>
+
+
+
 
 
 
 
 </LinearLayout>
+
+

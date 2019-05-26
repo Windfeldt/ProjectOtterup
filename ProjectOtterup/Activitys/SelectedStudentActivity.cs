@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using SharedLibrary;
 
 namespace ProjectOtterup.Activitys
 {
@@ -21,11 +22,31 @@ namespace ProjectOtterup.Activitys
 
             SetContentView(Resource.Layout.selectedStudent);
 
-            TextView textView = FindViewById<TextView>(Resource.Id.SelectedStudentName);
 
-            int intent = base.Intent.Extras.GetInt("Id");
+            StudentRepository studentRepository = new StudentRepository();
 
-            textView.Text = intent.ToString();
+
+            TextView textViewId = FindViewById<TextView>(Resource.Id.SelectedStudentId);
+
+            TextView textViewFirstFirstname = FindViewById<TextView>(Resource.Id.SelectedStudentFirstname);
+
+            TextView textViewFirstLastname = FindViewById<TextView>(Resource.Id.SelectedStudentLastname);
+
+            int studentId = base.Intent.Extras.GetInt("Id");
+
+            Student selectedStudent = studentRepository.GetStudent(studentId.ToString());
+
+
+            textViewId.Text = selectedStudent.Id;
+
+            textViewFirstFirstname.Text = selectedStudent.StudentFirstName;
+
+            textViewFirstLastname.Text = selectedStudent.StudentLastName;
+            //textView.Text = studentId.ToString();
+
+
+
+
 
             // Create your application here
         }

@@ -2382,8 +2382,14 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
+			// aapt resource value: 0x7f0800b6
+			public const int SelectedStudentFirstname = 2131230902;
+			
 			// aapt resource value: 0x7f0800b5
-			public const int SelectedStudentName = 2131230901;
+			public const int SelectedStudentId = 2131230901;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int SelectedStudentLastname = 2131230903;
 			
 			// aapt resource value: 0x7f0800a5
 			public const int action0 = 2131230885;
@@ -2640,23 +2646,23 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int masked = 2131230908;
+			// aapt resource value: 0x7f0800be
+			public const int masked = 2131230910;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int media_actions = 2131230888;
 			
+			// aapt resource value: 0x7f0800c1
+			public const int menu_newStudent = 2131230913;
+			
 			// aapt resource value: 0x7f0800bf
-			public const int menu_newStudent = 2131230911;
+			public const int menu_student = 2131230911;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int menu_student = 2131230909;
+			// aapt resource value: 0x7f0800c0
+			public const int menu_tests = 2131230912;
 			
-			// aapt resource value: 0x7f0800be
-			public const int menu_tests = 2131230910;
-			
-			// aapt resource value: 0x7f0800ba
-			public const int message = 2131230906;
+			// aapt resource value: 0x7f0800bc
+			public const int message = 2131230908;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2826,14 +2832,14 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0800a7
 			public const int status_bar_latest_event_content = 2131230887;
 			
+			// aapt resource value: 0x7f0800ba
+			public const int studentClassLevel = 2131230906;
+			
 			// aapt resource value: 0x7f0800b8
-			public const int studentClassLevel = 2131230904;
+			public const int studentFirstName = 2131230904;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int studentFirstName = 2131230902;
-			
-			// aapt resource value: 0x7f0800b7
-			public const int studentLastName = 2131230903;
+			// aapt resource value: 0x7f0800b9
+			public const int studentLastName = 2131230905;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2889,8 +2895,8 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int toolbar = 2131230905;
+			// aapt resource value: 0x7f0800bb
+			public const int toolbar = 2131230907;
 			
 			// aapt resource value: 0x7f08003e
 			public const int top = 2131230782;
@@ -2928,8 +2934,8 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int visible = 2131230907;
+			// aapt resource value: 0x7f0800bd
+			public const int visible = 2131230909;
 			
 			// aapt resource value: 0x7f08008e
 			public const int webview = 2131230862;
