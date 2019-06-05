@@ -1203,44 +1203,47 @@ namespace ProjectOtterup
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131492939;
+			// aapt resource value: 0x7f0c00a1
+			public const int _light_green = 2131493025;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_background_cache_hint_selector_material_light = 2131492940;
+			// aapt resource value: 0x7f0c00d9
+			public const int abc_background_cache_hint_selector_material_dark = 2131493081;
 			
-			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_borderless_text_material = 2131492941;
+			// aapt resource value: 0x7f0c00da
+			public const int abc_background_cache_hint_selector_material_light = 2131493082;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int abc_btn_colored_text_material = 2131492942;
+			// aapt resource value: 0x7f0c00db
+			public const int abc_btn_colored_borderless_text_material = 2131493083;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_color_highlight_material = 2131492943;
+			// aapt resource value: 0x7f0c00dc
+			public const int abc_btn_colored_text_material = 2131493084;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_dark = 2131492944;
+			// aapt resource value: 0x7f0c00dd
+			public const int abc_color_highlight_material = 2131493085;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_hint_foreground_material_light = 2131492945;
+			// aapt resource value: 0x7f0c00de
+			public const int abc_hint_foreground_material_dark = 2131493086;
+			
+			// aapt resource value: 0x7f0c00df
+			public const int abc_hint_foreground_material_light = 2131493087;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int abc_input_method_navigation_guard = 2131492864;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_dark = 2131492946;
+			// aapt resource value: 0x7f0c00e0
+			public const int abc_primary_text_disable_only_material_dark = 2131493088;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_disable_only_material_light = 2131492947;
+			// aapt resource value: 0x7f0c00e1
+			public const int abc_primary_text_disable_only_material_light = 2131493089;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_dark = 2131492948;
+			// aapt resource value: 0x7f0c00e2
+			public const int abc_primary_text_material_dark = 2131493090;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_primary_text_material_light = 2131492949;
+			// aapt resource value: 0x7f0c00e3
+			public const int abc_primary_text_material_light = 2131493091;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_search_url_text = 2131492950;
+			// aapt resource value: 0x7f0c00e4
+			public const int abc_search_url_text = 2131493092;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int abc_search_url_text_normal = 2131492865;
@@ -1251,35 +1254,50 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0003
 			public const int abc_search_url_text_selected = 2131492867;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_dark = 2131492951;
+			// aapt resource value: 0x7f0c00e5
+			public const int abc_secondary_text_material_dark = 2131493093;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_secondary_text_material_light = 2131492952;
+			// aapt resource value: 0x7f0c00e6
+			public const int abc_secondary_text_material_light = 2131493094;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_btn_checkable = 2131492953;
+			// aapt resource value: 0x7f0c00e7
+			public const int abc_tint_btn_checkable = 2131493095;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_default = 2131492954;
+			// aapt resource value: 0x7f0c00e8
+			public const int abc_tint_default = 2131493096;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_edittext = 2131492955;
+			// aapt resource value: 0x7f0c00e9
+			public const int abc_tint_edittext = 2131493097;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_seek_thumb = 2131492956;
+			// aapt resource value: 0x7f0c00ea
+			public const int abc_tint_seek_thumb = 2131493098;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_spinner = 2131492957;
+			// aapt resource value: 0x7f0c00eb
+			public const int abc_tint_spinner = 2131493099;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			// aapt resource value: 0x7f0c00ec
+			public const int abc_tint_switch_track = 2131493100;
 			
 			// aapt resource value: 0x7f0c0004
 			public const int accent_material_dark = 2131492868;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int accent_material_light = 2131492869;
+			
+			// aapt resource value: 0x7f0c0078
+			public const int alice_blue = 2131492984;
+			
+			// aapt resource value: 0x7f0c006e
+			public const int antique_white = 2131492974;
+			
+			// aapt resource value: 0x7f0c00c8
+			public const int aqua = 2131493064;
+			
+			// aapt resource value: 0x7f0c00ad
+			public const int aquamarine = 2131493037;
+			
+			// aapt resource value: 0x7f0c0076
+			public const int azure = 2131492982;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int background_floating_material_dark = 2131492870;
@@ -1292,6 +1310,24 @@ namespace ProjectOtterup
 			
 			// aapt resource value: 0x7f0c0009
 			public const int background_material_light = 2131492873;
+			
+			// aapt resource value: 0x7f0c0073
+			public const int beige = 2131492979;
+			
+			// aapt resource value: 0x7f0c0059
+			public const int bisque = 2131492953;
+			
+			// aapt resource value: 0x7f0c00d7
+			public const int black = 2131493079;
+			
+			// aapt resource value: 0x7f0c0057
+			public const int blanched_almond = 2131492951;
+			
+			// aapt resource value: 0x7f0c00d3
+			public const int blue = 2131493075;
+			
+			// aapt resource value: 0x7f0c00a6
+			public const int blue_violet = 2131493030;
 			
 			// aapt resource value: 0x7f0c000a
 			public const int bright_foreground_disabled_material_dark = 2131492874;
@@ -1311,14 +1347,38 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c000f
 			public const int bright_foreground_material_light = 2131492879;
 			
+			// aapt resource value: 0x7f0c009a
+			public const int brown = 2131493018;
+			
+			// aapt resource value: 0x7f0c0080
+			public const int burlyWood = 2131492992;
+			
 			// aapt resource value: 0x7f0c0010
 			public const int button_material_dark = 2131492880;
 			
 			// aapt resource value: 0x7f0c0011
 			public const int button_material_light = 2131492881;
 			
+			// aapt resource value: 0x7f0c00b8
+			public const int cadet_blue = 2131493048;
+			
+			// aapt resource value: 0x7f0c00ae
+			public const int chartreuse = 2131493038;
+			
+			// aapt resource value: 0x7f0c008a
+			public const int chocolate = 2131493002;
+			
+			// aapt resource value: 0x7f0c005d
+			public const int cold = 2131492957;
+			
 			// aapt resource value: 0x7f0c0049
 			public const int colorAccent = 2131492937;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int colorBewitchedTree = 2131492939;
+			
+			// aapt resource value: 0x7f0c004a
+			public const int colorMysticalGreen = 2131492938;
 			
 			// aapt resource value: 0x7f0c0047
 			public const int colorPrimary = 2131492935;
@@ -1326,11 +1386,83 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0048
 			public const int colorPrimaryDark = 2131492936;
 			
+			// aapt resource value: 0x7f0c0063
+			public const int coral = 2131492963;
+			
+			// aapt resource value: 0x7f0c00b7
+			public const int cornflower_blue = 2131493047;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int cornsilk = 2131492947;
+			
+			// aapt resource value: 0x7f0c0083
+			public const int crimson = 2131492995;
+			
+			// aapt resource value: 0x7f0c00c9
+			public const int cyan = 2131493065;
+			
+			// aapt resource value: 0x7f0c00d5
+			public const int dark_blue = 2131493077;
+			
+			// aapt resource value: 0x7f0c00cf
+			public const int dark_cyan = 2131493071;
+			
+			// aapt resource value: 0x7f0c0092
+			public const int dark_goldenrod = 2131493010;
+			
+			// aapt resource value: 0x7f0c0099
+			public const int dark_gray = 2131493017;
+			
+			// aapt resource value: 0x7f0c00d2
+			public const int dark_green = 2131493074;
+			
+			// aapt resource value: 0x7f0c008f
+			public const int dark_khaki = 2131493007;
+			
+			// aapt resource value: 0x7f0c00a4
+			public const int dark_magenta = 2131493028;
+			
+			// aapt resource value: 0x7f0c00b9
+			public const int dark_olive_green = 2131493049;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int dark_orange = 2131492962;
+			
+			// aapt resource value: 0x7f0c009d
+			public const int dark_orchid = 2131493021;
+			
+			// aapt resource value: 0x7f0c00a5
+			public const int dark_red = 2131493029;
+			
+			// aapt resource value: 0x7f0c007d
+			public const int dark_salmon = 2131492989;
+			
+			// aapt resource value: 0x7f0c00a2
+			public const int dark_sea_green = 2131493026;
+			
+			// aapt resource value: 0x7f0c00bc
+			public const int dark_slate_blue = 2131493052;
+			
+			// aapt resource value: 0x7f0c00c2
+			public const int dark_slate_gray = 2131493058;
+			
+			// aapt resource value: 0x7f0c00cd
+			public const int dark_turquoise = 2131493069;
+			
+			// aapt resource value: 0x7f0c009f
+			public const int dark_violet = 2131493023;
+			
+			// aapt resource value: 0x7f0c0067
+			public const int deep_pink = 2131492967;
+			
+			// aapt resource value: 0x7f0c00ce
+			public const int deep_sky_blue = 2131493070;
+			
 			// aapt resource value: 0x7f0c003c
 			public const int design_bottom_navigation_shadow_color = 2131492924;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c00ed
+			public const int design_error = 2131493101;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int design_fab_shadow_end_color = 2131492925;
@@ -1356,8 +1488,8 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0044
 			public const int design_snackbar_background_color = 2131492932;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c00ee
+			public const int design_tint_password_toggle = 2131493102;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int dim_foreground_disabled_material_dark = 2131492882;
@@ -1371,8 +1503,20 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0015
 			public const int dim_foreground_material_light = 2131492885;
 			
+			// aapt resource value: 0x7f0c00b5
+			public const int dim_gray = 2131493045;
+			
+			// aapt resource value: 0x7f0c00c6
+			public const int dodger_blue = 2131493062;
+			
 			// aapt resource value: 0x7f0c0016
 			public const int error_color_material = 2131492886;
+			
+			// aapt resource value: 0x7f0c0093
+			public const int fire_brick = 2131493011;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int floral_white = 2131492945;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int foreground_material_dark = 2131492887;
@@ -1380,14 +1524,119 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0018
 			public const int foreground_material_light = 2131492888;
 			
+			// aapt resource value: 0x7f0c00c4
+			public const int forest_green = 2131493060;
+			
+			// aapt resource value: 0x7f0c0068
+			public const int fuchsia = 2131492968;
+			
+			// aapt resource value: 0x7f0c0082
+			public const int gainsboro = 2131492994;
+			
+			// aapt resource value: 0x7f0c0070
+			public const int ghost_white = 2131492976;
+			
+			// aapt resource value: 0x7f0c0085
+			public const int goldenrod = 2131492997;
+			
+			// aapt resource value: 0x7f0c00a9
+			public const int gray = 2131493033;
+			
+			// aapt resource value: 0x7f0c00d1
+			public const int green = 2131493073;
+			
+			// aapt resource value: 0x7f0c0097
+			public const int greenYellow = 2131493015;
+			
 			// aapt resource value: 0x7f0c0019
 			public const int highlighted_text_material_dark = 2131492889;
 			
 			// aapt resource value: 0x7f0c001a
 			public const int highlighted_text_material_light = 2131492890;
 			
-			// aapt resource value: 0x7f0c004a
-			public const int ic_launcher_background = 2131492938;
+			// aapt resource value: 0x7f0c0077
+			public const int honeydew = 2131492983;
+			
+			// aapt resource value: 0x7f0c0064
+			public const int hot_pink = 2131492964;
+			
+			// aapt resource value: 0x7f0c00d8
+			public const int ic_launcher_background = 2131493080;
+			
+			// aapt resource value: 0x7f0c008c
+			public const int indian_red = 2131493004;
+			
+			// aapt resource value: 0x7f0c00ba
+			public const int indigo = 2131493050;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int ivory = 2131492941;
+			
+			// aapt resource value: 0x7f0c0079
+			public const int khaki = 2131492985;
+			
+			// aapt resource value: 0x7f0c007e
+			public const int lavender = 2131492990;
+			
+			// aapt resource value: 0x7f0c0055
+			public const int lavender_blush = 2131492949;
+			
+			// aapt resource value: 0x7f0c00af
+			public const int lawn_green = 2131493039;
+			
+			// aapt resource value: 0x7f0c0052
+			public const int lemon_chiffon = 2131492946;
+			
+			// aapt resource value: 0x7f0c0098
+			public const int light_blue = 2131493016;
+			
+			// aapt resource value: 0x7f0c007a
+			public const int light_coral = 2131492986;
+			
+			// aapt resource value: 0x7f0c007f
+			public const int light_cyan = 2131492991;
+			
+			// aapt resource value: 0x7f0c006c
+			public const int light_goldenrod_yellow = 2131492972;
+			
+			// aapt resource value: 0x7f0c0088
+			public const int light_grey = 2131493000;
+			
+			// aapt resource value: 0x7f0c005f
+			public const int light_pink = 2131492959;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int light_salmon = 2131492961;
+			
+			// aapt resource value: 0x7f0c00c5
+			public const int light_sea_green = 2131493061;
+			
+			// aapt resource value: 0x7f0c00a7
+			public const int light_sky_blue = 2131493031;
+			
+			// aapt resource value: 0x7f0c00b1
+			public const int light_slate_gray = 2131493041;
+			
+			// aapt resource value: 0x7f0c0095
+			public const int light_steel_blue = 2131493013;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int light_yellow = 2131492942;
+			
+			// aapt resource value: 0x7f0c00cb
+			public const int lime = 2131493067;
+			
+			// aapt resource value: 0x7f0c00c1
+			public const int lime_green = 2131493057;
+			
+			// aapt resource value: 0x7f0c006d
+			public const int linen = 2131492973;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int magenta = 2131492969;
+			
+			// aapt resource value: 0x7f0c00ac
+			public const int maroon = 2131493036;
 			
 			// aapt resource value: 0x7f0c001b
 			public const int material_blue_grey_800 = 2131492891;
@@ -1425,6 +1674,51 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0026
 			public const int material_grey_900 = 2131492902;
 			
+			// aapt resource value: 0x7f0c00a0
+			public const int mediumPurple = 2131493024;
+			
+			// aapt resource value: 0x7f0c00b6
+			public const int medium_aquamarine = 2131493046;
+			
+			// aapt resource value: 0x7f0c00d4
+			public const int medium_blue = 2131493076;
+			
+			// aapt resource value: 0x7f0c0091
+			public const int medium_orchid = 2131493009;
+			
+			// aapt resource value: 0x7f0c00c0
+			public const int medium_sea_green = 2131493056;
+			
+			// aapt resource value: 0x7f0c00b0
+			public const int medium_slate_blue = 2131493040;
+			
+			// aapt resource value: 0x7f0c00cc
+			public const int medium_spring_green = 2131493068;
+			
+			// aapt resource value: 0x7f0c00bb
+			public const int medium_turquoise = 2131493051;
+			
+			// aapt resource value: 0x7f0c008d
+			public const int medium_violet_red = 2131493005;
+			
+			// aapt resource value: 0x7f0c00c7
+			public const int midnight_blue = 2131493063;
+			
+			// aapt resource value: 0x7f0c0071
+			public const int mint_cream = 2131492977;
+			
+			// aapt resource value: 0x7f0c0058
+			public const int misty_rose = 2131492952;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int moccasin = 2131492954;
+			
+			// aapt resource value: 0x7f0c005b
+			public const int navajo_white = 2131492955;
+			
+			// aapt resource value: 0x7f0c00d6
+			public const int navy = 2131493078;
+			
 			// aapt resource value: 0x7f0c0045
 			public const int notification_action_color_filter = 2131492933;
 			
@@ -1433,6 +1727,54 @@ namespace ProjectOtterup
 			
 			// aapt resource value: 0x7f0c003b
 			public const int notification_material_background_media_default_color = 2131492923;
+			
+			// aapt resource value: 0x7f0c006b
+			public const int old_lace = 2131492971;
+			
+			// aapt resource value: 0x7f0c00aa
+			public const int olive = 2131493034;
+			
+			// aapt resource value: 0x7f0c00b3
+			public const int olive_drab = 2131493043;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int orange = 2131492960;
+			
+			// aapt resource value: 0x7f0c0066
+			public const int orange_red = 2131492966;
+			
+			// aapt resource value: 0x7f0c0086
+			public const int orchid = 2131492998;
+			
+			// aapt resource value: 0x7f0c007b
+			public const int pale_goldenrod = 2131492987;
+			
+			// aapt resource value: 0x7f0c009e
+			public const int pale_green = 2131493022;
+			
+			// aapt resource value: 0x7f0c0096
+			public const int pale_turquoise = 2131493014;
+			
+			// aapt resource value: 0x7f0c0084
+			public const int pale_violet_red = 2131492996;
+			
+			// aapt resource value: 0x7f0c0056
+			public const int papaya_whip = 2131492950;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int peach_puff = 2131492956;
+			
+			// aapt resource value: 0x7f0c008b
+			public const int peru = 2131493003;
+			
+			// aapt resource value: 0x7f0c005e
+			public const int pink = 2131492958;
+			
+			// aapt resource value: 0x7f0c0081
+			public const int plum = 2131492993;
+			
+			// aapt resource value: 0x7f0c0094
+			public const int powder_blue = 2131493012;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int primary_dark_material_dark = 2131492903;
@@ -1458,11 +1800,38 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c002e
 			public const int primary_text_disabled_material_light = 2131492910;
 			
+			// aapt resource value: 0x7f0c00ab
+			public const int purple = 2131493035;
+			
+			// aapt resource value: 0x7f0c006a
+			public const int red = 2131492970;
+			
 			// aapt resource value: 0x7f0c002f
 			public const int ripple_material_dark = 2131492911;
 			
 			// aapt resource value: 0x7f0c0030
 			public const int ripple_material_light = 2131492912;
+			
+			// aapt resource value: 0x7f0c0090
+			public const int rosy_brown = 2131493008;
+			
+			// aapt resource value: 0x7f0c00be
+			public const int royal_blue = 2131493054;
+			
+			// aapt resource value: 0x7f0c00a3
+			public const int saddle_brown = 2131493027;
+			
+			// aapt resource value: 0x7f0c006f
+			public const int salmon = 2131492975;
+			
+			// aapt resource value: 0x7f0c0075
+			public const int sandy_brown = 2131492981;
+			
+			// aapt resource value: 0x7f0c00c3
+			public const int sea_green = 2131493059;
+			
+			// aapt resource value: 0x7f0c0054
+			public const int seashell = 2131492948;
 			
 			// aapt resource value: 0x7f0c0031
 			public const int secondary_text_default_material_dark = 2131492913;
@@ -1476,17 +1845,41 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0034
 			public const int secondary_text_disabled_material_light = 2131492916;
 			
+			// aapt resource value: 0x7f0c009b
+			public const int sienna = 2131493019;
+			
+			// aapt resource value: 0x7f0c008e
+			public const int silver = 2131493006;
+			
+			// aapt resource value: 0x7f0c00a8
+			public const int sky_blue = 2131493032;
+			
+			// aapt resource value: 0x7f0c00b4
+			public const int slate_blue = 2131493044;
+			
+			// aapt resource value: 0x7f0c00b2
+			public const int slate_gray = 2131493042;
+			
+			// aapt resource value: 0x7f0c0050
+			public const int snow = 2131492944;
+			
+			// aapt resource value: 0x7f0c00ca
+			public const int spring_green = 2131493066;
+			
+			// aapt resource value: 0x7f0c00bd
+			public const int steel_blue = 2131493053;
+			
 			// aapt resource value: 0x7f0c0035
 			public const int switch_thumb_disabled_material_dark = 2131492917;
 			
 			// aapt resource value: 0x7f0c0036
 			public const int switch_thumb_disabled_material_light = 2131492918;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c00ef
+			public const int switch_thumb_material_dark = 2131493103;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c00f0
+			public const int switch_thumb_material_light = 2131493104;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int switch_thumb_normal_material_dark = 2131492919;
@@ -1494,11 +1887,44 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0c0038
 			public const int switch_thumb_normal_material_light = 2131492920;
 			
+			// aapt resource value: 0x7f0c0089
+			public const int tan = 2131493001;
+			
+			// aapt resource value: 0x7f0c00d0
+			public const int teal = 2131493072;
+			
+			// aapt resource value: 0x7f0c0087
+			public const int thistle = 2131492999;
+			
+			// aapt resource value: 0x7f0c0065
+			public const int tomato = 2131492965;
+			
 			// aapt resource value: 0x7f0c0039
 			public const int tooltip_background_dark = 2131492921;
 			
 			// aapt resource value: 0x7f0c003a
 			public const int tooltip_background_light = 2131492922;
+			
+			// aapt resource value: 0x7f0c00bf
+			public const int turquoise = 2131493055;
+			
+			// aapt resource value: 0x7f0c007c
+			public const int violet = 2131492988;
+			
+			// aapt resource value: 0x7f0c0074
+			public const int wheat = 2131492980;
+			
+			// aapt resource value: 0x7f0c004c
+			public const int white = 2131492940;
+			
+			// aapt resource value: 0x7f0c0072
+			public const int white_smoke = 2131492978;
+			
+			// aapt resource value: 0x7f0c004f
+			public const int yellow = 2131492943;
+			
+			// aapt resource value: 0x7f0c009c
+			public const int yellow_green = 2131493020;
 			
 			static Color()
 			{
@@ -2382,14 +2808,11 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f080037
 			public const int SYM = 2131230775;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int SelectedStudentFirstname = 2131230902;
+			// aapt resource value: 0x7f0800c9
+			public const int SelectedSchoolclass = 2131230921;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int SelectedStudentId = 2131230901;
-			
-			// aapt resource value: 0x7f0800b7
-			public const int SelectedStudentLastname = 2131230903;
+			// aapt resource value: 0x7f0800c8
+			public const int SelectedStudentName = 2131230920;
 			
 			// aapt resource value: 0x7f0800a5
 			public const int action0 = 2131230885;
@@ -2484,6 +2907,24 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f08008d
 			public const int bottom_navigation = 2131230861;
 			
+			// aapt resource value: 0x7f0800b6
+			public const int btnAddTests = 2131230902;
+			
+			// aapt resource value: 0x7f0800ca
+			public const int btnCreateCourse = 2131230922;
+			
+			// aapt resource value: 0x7f0800b7
+			public const int btnDyslexia = 2131230903;
+			
+			// aapt resource value: 0x7f0800bd
+			public const int btnGrade = 2131230909;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int btnIL = 2131230905;
+			
+			// aapt resource value: 0x7f0800bb
+			public const int btnNonOrd = 2131230907;
+			
 			// aapt resource value: 0x7f08009d
 			public const int button1 = 2131230877;
 			
@@ -2528,6 +2969,9 @@ namespace ProjectOtterup
 			
 			// aapt resource value: 0x7f080092
 			public const int coordinator = 2131230866;
+			
+			// aapt resource value: 0x7f0800cb
+			public const int courseListView = 2131230923;
 			
 			// aapt resource value: 0x7f08006d
 			public const int custom = 2131230829;
@@ -2643,26 +3087,38 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f08001d
 			public const int listMode = 2131230749;
 			
+			// aapt resource value: 0x7f0800b8
+			public const int listViewDyslexia = 2131230904;
+			
+			// aapt resource value: 0x7f0800be
+			public const int listViewGrade = 2131230910;
+			
+			// aapt resource value: 0x7f0800ba
+			public const int listViewIL = 2131230906;
+			
+			// aapt resource value: 0x7f0800bc
+			public const int listViewNonOrd = 2131230908;
+			
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800be
-			public const int masked = 2131230910;
+			// aapt resource value: 0x7f0800d4
+			public const int masked = 2131230932;
 			
 			// aapt resource value: 0x7f0800a8
 			public const int media_actions = 2131230888;
 			
-			// aapt resource value: 0x7f0800c1
-			public const int menu_newStudent = 2131230913;
+			// aapt resource value: 0x7f0800d7
+			public const int menu_newStudent = 2131230935;
 			
-			// aapt resource value: 0x7f0800bf
-			public const int menu_student = 2131230911;
+			// aapt resource value: 0x7f0800d5
+			public const int menu_student = 2131230933;
 			
-			// aapt resource value: 0x7f0800c0
-			public const int menu_tests = 2131230912;
+			// aapt resource value: 0x7f0800d6
+			public const int menu_tests = 2131230934;
 			
-			// aapt resource value: 0x7f0800bc
-			public const int message = 2131230908;
+			// aapt resource value: 0x7f0800d2
+			public const int message = 2131230930;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2787,6 +3243,36 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f08008a
 			public const int select_dialog_listview = 2131230858;
 			
+			// aapt resource value: 0x7f0800b5
+			public const int selectedCourseName = 2131230901;
+			
+			// aapt resource value: 0x7f0800c6
+			public const int selectedCourse_AssignmentNumber = 2131230918;
+			
+			// aapt resource value: 0x7f0800c7
+			public const int selectedCourse_CorrectNumber = 2131230919;
+			
+			// aapt resource value: 0x7f0800bf
+			public const int selectedCourse_GradeTestName = 2131230911;
+			
+			// aapt resource value: 0x7f0800c0
+			public const int selectedCourse_GradeTestResult = 2131230912;
+			
+			// aapt resource value: 0x7f0800c1
+			public const int selectedCourse_ILTestName = 2131230913;
+			
+			// aapt resource value: 0x7f0800c2
+			public const int selectedCourse_LIXNumber = 2131230914;
+			
+			// aapt resource value: 0x7f0800c5
+			public const int selectedCourse_NonOrdTestName = 2131230917;
+			
+			// aapt resource value: 0x7f0800c3
+			public const int selectedCourse_OutLoudReadingResult = 2131230915;
+			
+			// aapt resource value: 0x7f0800c4
+			public const int selectedCourse_SilentReadingResult = 2131230916;
+			
 			// aapt resource value: 0x7f080074
 			public const int shortcut = 2131230836;
 			
@@ -2832,14 +3318,20 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0800a7
 			public const int status_bar_latest_event_content = 2131230887;
 			
-			// aapt resource value: 0x7f0800ba
-			public const int studentClassLevel = 2131230906;
+			// aapt resource value: 0x7f0800d0
+			public const int studentClassLevel = 2131230928;
 			
-			// aapt resource value: 0x7f0800b8
-			public const int studentFirstName = 2131230904;
+			// aapt resource value: 0x7f0800cc
+			public const int studentCourseName = 2131230924;
 			
-			// aapt resource value: 0x7f0800b9
-			public const int studentLastName = 2131230905;
+			// aapt resource value: 0x7f0800cd
+			public const int studentCourseStartDate = 2131230925;
+			
+			// aapt resource value: 0x7f0800ce
+			public const int studentFirstName = 2131230926;
+			
+			// aapt resource value: 0x7f0800cf
+			public const int studentLastName = 2131230927;
 			
 			// aapt resource value: 0x7f080076
 			public const int submenuarrow = 2131230838;
@@ -2895,8 +3387,8 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f08006f
 			public const int title_template = 2131230831;
 			
-			// aapt resource value: 0x7f0800bb
-			public const int toolbar = 2131230907;
+			// aapt resource value: 0x7f0800d1
+			public const int toolbar = 2131230929;
 			
 			// aapt resource value: 0x7f08003e
 			public const int top = 2131230782;
@@ -2934,8 +3426,8 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800bd
-			public const int visible = 2131230909;
+			// aapt resource value: 0x7f0800d3
+			public const int visible = 2131230931;
 			
 			// aapt resource value: 0x7f08008e
 			public const int webview = 2131230862;
@@ -3129,85 +3621,103 @@ namespace ProjectOtterup
 			public const int design_text_input_password_icon = 2130968617;
 			
 			// aapt resource value: 0x7f04002a
-			public const int fragment_addStudent = 2130968618;
+			public const int dialog_select_course = 2130968618;
 			
 			// aapt resource value: 0x7f04002b
-			public const int fragment_addTests = 2130968619;
+			public const int fragment_addStudent = 2130968619;
 			
 			// aapt resource value: 0x7f04002c
-			public const int fragments_student = 2130968620;
+			public const int fragment_addTests = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int ListViewStudent = 2130968621;
+			public const int fragments_student = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int notification_action = 2130968622;
+			public const int ListViewStudent = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int notification_action_tombstone = 2130968623;
+			public const int notification_action = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int notification_media_action = 2130968624;
+			public const int notification_action_tombstone = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int notification_media_cancel_action = 2130968625;
+			public const int notification_media_action = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int notification_template_big_media = 2130968626;
+			public const int notification_media_cancel_action = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int notification_template_big_media_custom = 2130968627;
+			public const int notification_template_big_media = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int notification_template_big_media_narrow = 2130968628;
+			public const int notification_template_big_media_custom = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int notification_template_big_media_narrow_custom = 2130968629;
+			public const int notification_template_big_media_narrow = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int notification_template_custom_big = 2130968630;
+			public const int notification_template_big_media_narrow_custom = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int notification_template_icon_group = 2130968631;
+			public const int notification_template_custom_big = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int notification_template_lines_media = 2130968632;
+			public const int notification_template_icon_group = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int notification_template_media = 2130968633;
+			public const int notification_template_lines_media = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int notification_template_media_custom = 2130968634;
+			public const int notification_template_media = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int notification_template_part_chronometer = 2130968635;
+			public const int notification_template_media_custom = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int notification_template_part_time = 2130968636;
+			public const int notification_template_part_chronometer = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int select_dialog_item_material = 2130968637;
+			public const int notification_template_part_time = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int select_dialog_multichoice_material = 2130968638;
+			public const int select_dialog_item_material = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int select_dialog_singlechoice_material = 2130968639;
+			public const int select_dialog_multichoice_material = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int selectedStudent = 2130968640;
+			public const int select_dialog_singlechoice_material = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int StudentRow = 2130968641;
+			public const int selectedCourse = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int support_simple_spinner_dropdown_item = 2130968642;
+			public const int selectedCourse_gradeTest = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int toolbar = 2130968643;
+			public const int selectedCourse_ILTest = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int tooltip = 2130968644;
+			public const int selectedCourse_nonOrdTest = 2130968644;
+			
+			// aapt resource value: 0x7f040045
+			public const int selectedStudent = 2130968645;
+			
+			// aapt resource value: 0x7f040046
+			public const int selectedStudent_listItem = 2130968646;
+			
+			// aapt resource value: 0x7f040047
+			public const int StudentRow = 2130968647;
+			
+			// aapt resource value: 0x7f040048
+			public const int support_simple_spinner_dropdown_item = 2130968648;
+			
+			// aapt resource value: 0x7f040049
+			public const int toolbar = 2130968649;
+			
+			// aapt resource value: 0x7f04004a
+			public const int tooltip = 2130968650;
 			
 			static Layout()
 			{

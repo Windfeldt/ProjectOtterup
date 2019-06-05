@@ -58,9 +58,16 @@
   <ItemGroup>
     <Compile Include="Activitys\MainActivity.cs" />
     <Compile Include="Activitys\SelectedStudentActivity.cs" />
+    <Compile Include="Activitys\SelectedStudentCourseActivity.cs" />
+    <Compile Include="Adapter\DyslexiTestAdapter.cs" />
+    <Compile Include="Adapter\GradeTestAdapter.cs" />
+    <Compile Include="Adapter\ILTestAdapter.cs" />
+    <Compile Include="Adapter\NonOrdAdapter.cs" />
+    <Compile Include="Adapter\SelectedStudentCourseAdapter.cs" />
     <Compile Include="Fragments\FragmentAddTest.cs" />
     <Compile Include="Fragments\FragmentStudent.cs" />
     <Compile Include="Fragments\FragmentAddStudent.cs" />
+    <Compile Include="Fragments\Select_Course.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Adapter\StudentListViewAdapter.cs" />
@@ -194,6 +201,36 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\selectedStudent.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\dialog_select_course.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\selectedStudent_listItem.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\selectedCourse.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\selectedCourse_gradeTest.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\selectedCourse_nonOrdTest.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\selectedCourse_ILTest.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

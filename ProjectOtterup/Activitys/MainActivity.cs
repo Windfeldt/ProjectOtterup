@@ -20,7 +20,7 @@ namespace ProjectOtterup
             base.OnCreate(savedInstanceState);
             Microsoft.WindowsAzure.MobileServices.CurrentPlatform.Init();
             SetContentView(Resource.Layout.activity_main);
-
+            LoadFragment(4);
             var toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             if (toolbar != null)
             {
@@ -46,8 +46,8 @@ namespace ProjectOtterup
             void LoadFragment(int id)
 
             {
-                Android.Support.V4.App.Fragment fragment = FragmentStudent.NewInstance();
-                SupportFragmentManager.BeginTransaction().Replace(Resource.Id.content_frame, fragment).Commit();
+                Android.Support.V4.App.Fragment fragment = null;
+                
                 switch (id)
                 {
                     case Resource.Id.menu_student:
@@ -58,6 +58,9 @@ namespace ProjectOtterup
                         break;
                     case Resource.Id.menu_newStudent:
                         fragment = FragmentAddTest.NewInstance();
+                        break;
+                    case 4:
+                        fragment = FragmentStudent.NewInstance();
                         break;
                 }
                 if (fragment == null) return;

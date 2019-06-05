@@ -38,9 +38,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DyslexiaTest.cs" />
+    <Compile Include="GradeTest.cs" />
+    <Compile Include="ILTest.cs" />
+    <Compile Include="NonOrdTest.cs" />
     <Compile Include="SchoolTestInfo.cs" />
     <Compile Include="Services\AzureService.cs" />
     <Compile Include="Student.cs" />
+    <Compile Include="StudentCourse.cs" />
     <Compile Include="StudentRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

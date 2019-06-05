@@ -6,32 +6,38 @@
 	android:orientation="vertical"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	android:background="@android:color/holo_purple">
+	android:background="@color/colorMysticalGreen">
 
 <TextView
-	android:id="@+id/SelectedStudentId"
-	android:text="Hello World"
+	android:layout_marginTop="80dp"
+	android:id="@+id/SelectedStudentName"
+	android:text="First Name"
 	android:textAppearance="?android:attr/textAppearanceLarge"
 	android:layout_width="match_parent"
 	android:layout_height="70dp"
 	android:gravity="center"/>
 
 <TextView
-	android:id="@+id/SelectedStudentFirstname"
-	android:text="Hello World"
+	android:id="@+id/SelectedSchoolclass"
+	android:text="School Class"
 	android:textAppearance="?android:attr/textAppearanceLarge"
 	android:layout_width="match_parent"
 	android:layout_height="70dp"
 	android:gravity="center"/>
 
-<TextView
-	android:id="@+id/SelectedStudentLastname"
-	android:text="Hello World"
+<Button
+	android:id="@+id/btnCreateCourse"
+	android:text="Nyt forløb"
 	android:textAppearance="?android:attr/textAppearanceLarge"
 	android:layout_width="match_parent"
-	android:layout_height="70dp"
-	android:gravity="center"/>
+	android:layout_height="wrap_content"
+	android:backgroundTint="@color/peach_puff"
+	android:layout_margin="20dp"/>
 
+<ListView
+	android:id="@+id/courseListView"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"/>
 
 
 

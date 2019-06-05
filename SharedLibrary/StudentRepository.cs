@@ -11,54 +11,27 @@ namespace SharedLibrary
     public class StudentRepository
     {
         AzureService azureService = new AzureService();
+
         private List<Student> _students = new List<Student>
         {
             new Student
-            {
-                Id = "1",
-                StudentId = 1,
-                StudentFirstName = "Jørn",
-                StudentLastName="Andersen",
-                ClassLevel = 3,
-                ActiveStudent = true,
-                SchoolClass = "3b"
-            },
+            {Id = "1", StudentId = 1, StudentFirstName = "Jørn", StudentLastName="Andersen",
+                ClassLevel = 3, ActiveStudent = true, SchoolClass = "3b"},
             new Student
-            {
-                Id = "2",
-                StudentId = 2,
-                StudentFirstName = "Kasper",
-                StudentLastName = "Rasmussen",
-                ClassLevel = 1,
-                ActiveStudent = true,
-                SchoolClass = "4c"
-            },
+            {Id = "2", StudentId = 2, StudentFirstName = "Kasper", StudentLastName = "Rasmussen",
+                ClassLevel = 1, ActiveStudent = true, SchoolClass = "4c"},
             new Student
-            {
-                Id = "3",
-                StudentId = 3,
-                StudentFirstName = "Emil",
-                StudentLastName="Larsen",
-                ClassLevel=2,
-                ActiveStudent = true,
-                SchoolClass = "2a"
-            },
+            {Id = "3", StudentId = 3, StudentFirstName = "Emil", StudentLastName="Larsen",
+                ClassLevel=2, ActiveStudent = true, SchoolClass = "2a"},
             new Student
-            {
-                Id = "9",
-                StudentId = 150,
-                StudentFirstName = "Thomas",
-                StudentLastName = "Siebenhaar",
-                ClassLevel=3,
-                ActiveStudent = true,
-                SchoolClass = "1c"
-            }
+            {Id = "4", StudentId = 150, StudentFirstName = "Thomas", StudentLastName = "Siebenhaar",
+                ClassLevel=3, ActiveStudent = true, SchoolClass = "1c"}
         };
-        //private List<Student> _students = new List<Student>();
-
 
         public List<Student> GetStudents()
         {
+
+
             return _students;
         }
 
