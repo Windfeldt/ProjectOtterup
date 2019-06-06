@@ -63,14 +63,14 @@ namespace ProjectOtterup.Activitys
 
             btnAddTest = FindViewById<Button>(Resource.Id.btnAddTests);
             btnAddTest.Click += BtnAddTest_Click;
-            btnDyslexia = FindViewById<Button>(Resource.Id.btnDyslexia);
-            btnDyslexia.Click += BtnDyslexia_Click;
-            btnGrade = FindViewById<Button>(Resource.Id.btnGrade);
-            btnGrade.Click += BtnGrade_Click;
-            btnIL = FindViewById<Button>(Resource.Id.btnIL);
-            btnIL.Click += BtnIL_Click;
-            btnNonOrd = FindViewById<Button>(Resource.Id.btnNonOrd);
-            btnNonOrd.Click += BtnNonOrd_Click;
+            //btnDyslexia = FindViewById<Button>(Resource.Id.btnDyslexia);
+            //btnDyslexia.Click += BtnDyslexia_Click;
+            //btnGrade = FindViewById<Button>(Resource.Id.btnGrade);
+            //btnGrade.Click += BtnGrade_Click;
+            //btnIL = FindViewById<Button>(Resource.Id.btnIL);
+            //btnIL.Click += BtnIL_Click;
+            //btnNonOrd = FindViewById<Button>(Resource.Id.btnNonOrd);
+            //btnNonOrd.Click += BtnNonOrd_Click;
 
 
             // Create your application here
@@ -98,7 +98,29 @@ namespace ProjectOtterup.Activitys
 
         private void BtnAddTest_Click(object sender, EventArgs e)
         {
-            Toast.MakeText(context, "Worked!", ToastLength.Short).Show();
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.SetTitle("Vælge prøve");
+            Spinner spinner = new Spinner(this);
+            builder.SetView(spinner);
+
+            ArrayAdapter arrayAdapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleSpinnerItem, StringArray());
+            arrayAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+            spinner.Adapter = arrayAdapter;
+
+
+            string[] StringArray()
+            {
+                string[] ArrayOfTests = { "Nonordprøve", "Karakterprøve", "Ordblindeprøve", "Læseprøve" };
+                return ArrayOfTests;
+            }
+
+            builder.SetPositiveButton("Gem", (senderAlert, args) =>
+            {
+
+            });
+
+            AlertDialog alertDialog = builder.Create();
+            alertDialog.Show();
         }
     }
 }
