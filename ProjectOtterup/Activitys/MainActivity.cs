@@ -53,10 +53,10 @@ namespace ProjectOtterup
                     case Resource.Id.menu_student:
                         fragment = FragmentStudent.NewInstance();
                         break;
-                    case Resource.Id.menu_tests:
+                    case Resource.Id.menu_newStudent:
                         fragment = FragmentAddStudent.NewInstance();
                         break;
-                    case Resource.Id.menu_newStudent:
+                    case Resource.Id.menu_tests:
                         fragment = FragmentAddTest.NewInstance();
                         break;
                     case 4:

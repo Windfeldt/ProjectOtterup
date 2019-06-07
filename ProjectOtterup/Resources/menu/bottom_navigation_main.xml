@@ -8,15 +8,15 @@
     app:showAsAction="ifRoom"/>
 
   <item
-    android:id="@+id/menu_tests"
+    android:id="@+id/menu_newStudent"
     android:icon="@drawable/icons_chili"
-    android:title="Test"
+    android:title="Add student"
     app:showAsAction="ifRoom"/>
 
   <item
-    android:id="@+id/menu_newStudent"
+    android:id="@+id/menu_tests"
     android:icon="@drawable/icons_western"
-    android:title="Info"
+    android:title="N/A"
     app:showAsAction="ifRoom"/>
 
 </menu>

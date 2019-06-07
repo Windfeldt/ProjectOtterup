@@ -3108,14 +3108,14 @@ namespace ProjectOtterup
 			// aapt resource value: 0x7f0800a8
 			public const int media_actions = 2131230888;
 			
-			// aapt resource value: 0x7f0800d7
-			public const int menu_newStudent = 2131230935;
+			// aapt resource value: 0x7f0800d6
+			public const int menu_newStudent = 2131230934;
 			
 			// aapt resource value: 0x7f0800d5
 			public const int menu_student = 2131230933;
 			
-			// aapt resource value: 0x7f0800d6
-			public const int menu_tests = 2131230934;
+			// aapt resource value: 0x7f0800d7
+			public const int menu_tests = 2131230935;
 			
 			// aapt resource value: 0x7f0800d2
 			public const int message = 2131230930;
