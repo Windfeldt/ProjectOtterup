@@ -72,8 +72,6 @@ namespace ProjectOtterup.Activitys
             //btnNonOrd = FindViewById<Button>(Resource.Id.btnNonOrd);
             //btnNonOrd.Click += BtnNonOrd_Click;
 
-
-            // Create your application here
         }
 
         private void BtnNonOrd_Click(object sender, EventArgs e)

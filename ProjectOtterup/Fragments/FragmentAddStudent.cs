@@ -46,7 +46,14 @@ namespace ProjectOtterup.Fragments
 
         private async void Button_Click(object sender, EventArgs e)
         {
+            try
+            {
             await azureService.AddStudent();
+            }
+            catch (Exception)
+            {
+                Toast.MakeText(Context, "an error occurred", ToastLength.Short);
+            }
         }
     }
 }

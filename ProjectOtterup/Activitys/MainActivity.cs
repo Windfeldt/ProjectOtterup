@@ -29,11 +29,7 @@ namespace ProjectOtterup
                 SupportActionBar.SetDisplayHomeAsUpEnabled(false);
             }
 
-            //frag.OnListViewClick += (s, e) =>
-            //{
-            //    Intent intent = new Intent(this, typeof(Activity1));
-            //    StartActivity(intent);
-            //};
+            
 
             var bottomNavigation = FindViewById<BottomNavigationView>(Resource.Id.bottom_navigation);
 

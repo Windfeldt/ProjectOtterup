@@ -90,6 +90,7 @@ namespace ProjectOtterup.Activitys
         {
             courses = FindViewById<ListView>(Resource.Id.courseListView);
             SelectedStudentCourseAdapter courseAdapter = new SelectedStudentCourseAdapter(this, student.Courses);
+
             courses.Adapter = courseAdapter;
 
             StudentCourse studentCourse = new StudentCourse()

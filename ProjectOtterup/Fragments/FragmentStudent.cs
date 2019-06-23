@@ -42,21 +42,13 @@ namespace ProjectOtterup.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-
-
             View view = inflater.Inflate(Resource.Layout.ListViewStudent, container, false);
             ListView _listView = view.FindViewById<ListView>(Resource.Id.myStudentListView);
-
-
+            
             _listStudents = StudentRepo.GetStudents();
-            //_listStudents = StudentRepo.GetStudents().Result;
-
             StudentListViewAdapter adapter = new StudentListViewAdapter(Context, _listStudents);
-
             _listView.Adapter = adapter;
-
             _listView.ItemClick += _listView_ItemClick;
-
             return view;
         }
 
